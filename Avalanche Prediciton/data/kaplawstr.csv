@@ -1,0 +1,40 @@
+"ID","Bereich_KAPRUN","Gebiet","Code","Code_neu","Lawinenstrich","Text","Bild","exp0","exp1","exp2","exp3","exp4","exp5","exp6","exp7","xoff","yoff","Scale","ScaleW","ScaleH","OffX","OffY"
+1,"Kaprun","Mooserboden","K01",50606001,"Grubbachkarlawine","Hochweißenfeld","BildKaprun\MoBo.jpg",,,,,,,,,"399575.8659166822","222951.542408475","9.677280190142488",421,430,252,280
+2,"Kaprun","Mooserboden","K02",50606002,"Klockerinlawine","Klockerin","BildKaprun\MoBo.jpg",,,,,,,,,"399866.09542846965","223280.96779835012","8.536056341710157",729,658,323,366
+3,"Kaprun","Mooserboden","K03",50606003,"Lawine auf Kehre 7","Ebmalen","BildKaprun\MoBo.jpg",,,,,,,,,"400923.8362718814","224147.87163714773","5.556387217635419",422,402,248,245
+4,"Kaprun","Mooserboden","K04",50606004,"Kaindlkeeslawine","Kaindlkees","BildKaprun\MoBo.jpg",,,,,,,,,"400019.4418887586","223301.94626175138","8.397933163290329",688,572,415,372
+5,"Kaprun","Mooserboden","K05",50606005,"Lawine auf Kehre 6","Stausee Mooserboden","BildKaprun\MoBo.jpg",,,,,,,,,"400147.29826004745","223483.02184658658","7.956890899156119",449,397,319,275
+6,"Kaprun","Mooserboden","K06",50606006,"Drossenlawine","Heinrich Schwaiger Haus","BildKaprun\MoBo.jpg",,,,,,,,,"400499.39039170544","223622.1900102085","7.410369324877972",713,467,339,180
+7,"Kaprun","Mooserboden","K07",50606007,"Höhenburglawinen West","Höhenburg","BildKaprun\MoBo.jpg",,,,,,,,,"400592.6179084547","223763.91601467747","6.903914135869949",517,376,359,241
+8,"Kaprun","Mooserboden","K08",50606008,"Wielingerlawine","Gr. Wiesbachhorn","BildKaprun\MoBo.jpg",,,,,,,,,"400394.71931139653","223443.50523003456","7.9127317177860705",877,557,374,171
+9,"Kaprun","Mooserboden","K09",50606009,"Grubbachlawine","Stausee Mooserboden","BildKaprun\MoBo.jpg",,,,,,,,,"399829.94108919386","223162.04756235995","8.805489486411215",420,371,333,276
+10,"Kaprun","Mooserboden","K10",50606010,"Karlbachlawine","Hoher Tenn","BildKaprun\MoBo.jpg",,,,,,,,,"400050.7915020906","223356.50746594006","8.37544966371277",810,297,441,21
+11,"Kaprun","Mooserboden","K11",50606011,"Ebmattenlawine","Grießkogel, Beilwand","BildKaprun\MoBo.jpg",,,,,,,,,"399930.2136189686","223371.08108488738","8.26909013627683",460,466,19,103
+12,"Kaprun","Mooserboden","K12",50606012,"Hausebenlawine","Hauseben","BildKaprun\MoBo.jpg",,,,,,,,,"400526.7351650527","223870.48982363127","7.241029730172751",618,225,434,93
+13,"Kaprun","Mooserboden","K13",50606013,"Beilwandlawine","Fürthenmoaralm","BildKaprun\MoBo.jpg",,,,,,,,,"399104.87771434296","221555.93564985853","12.245689512061594",369,265,241,134
+14,"Kaprun","Mooserboden","K14",50606014,"Mitterbachlawine","Bauernbachkarl","BildKaprun\MoBo.jpg",,,,,,,,,"400213.48693957843","223585.78480122256","7.977201161967049",725,196,390,-40
+15,"Kaprun","Mooserboden","K15",50606015,"Kitzsteinhornlawine","Kitzsteinhorn","BildKaprun\MoBo.jpg",,,,,,,,,"399892.9385931616","223022.72357175502","8.90535018488457",438,288,126,30
+16,"Kaprun","Mooserboden","K16",50606016,"Baumgärtenlawine","Stausee Wasserfallboden","BildKaprun\MoBo.jpg",,,,,,,,,"400227.0339992811","223523.71066797362","8.17052310860824",617,164,375,-8
+17,"Kaprun","Mooserboden","K17",50606017,"Hochschoberlawine","Kitzsteinhorn","BildKaprun\MoBo.jpg",,,,,,,,,"399740.2063625432","222718.6472702012","9.444670754147918",417,226,130,1
+18,"Kaprun","Wasserfallboden","K18",50606018,"Limberggrabenlawine","Gererkögerl","BildKaprun\Tal.jpg",,,,,,,,,"401497.44159964455","226734.83767226432","7.9687473580143005",474,905,212,747
+19,"Kaprun","Mooserboden","K19",50606019,"Hintere Bärrinnenlawine","Kammerkees","BildKaprun\MoBo.jpg",,,,,,,,,"400462.2352307634","224226.49817001462","6.867792769617033",433,151,171,-44
+20,"Kaprun","Wasserfallboden","K20",50606020,"Ostliftlawine","Limbergsperre","BildKaprun\Tal.jpg",,,,,,,,,"401647.27165705117","226882.60254315892","7.3235776759891715",388,854,211,738
+21,"Kaprun","Wasserfallboden","K21",50606021,"Mittlere Bärrinnenlawine","Kammerkees","BildKaprun\Tal.jpg",,,,,,,,,"401049.0293166167","226514.4149897798","8.761073083735191",279,901,63,742
+22,"Kaprun","Wasserfallboden","K22",50606022,"Osthanglawine KW - Limberg","Limbergsperre","BildKaprun\Tal.jpg",,,,,,,,,"401170.9520216784","226397.37044625863","8.943552079577442",388,842,211,716
+23,"Kaprun","Wasserfallboden","K23",50606023,"Seichenlawine","Bärrinne","BildKaprun\Tal.jpg",,,,,,,,,"401045.9782552828","226332.5100184947","8.936280210721375",290,909,52,734
+24,"Kaprun","Wasserfallboden","K24",50606024,"Kempsenlawine","Gererkögerl","BildKaprun\Tal.jpg",,,,,,,,,"401126.7788075993","226492.4636401016","8.780654344384919",474,831,212,660
+25,"Kaprun","Wasserfallboden","K25",50606025,"Vordere Bärrinnenlawine","Hohe Kammerscharte","BildKaprun\Tal.jpg",,,,,,,,,"401516.98147435137","226837.333281749","7.641605042848157",350,923,-8,682
+26,"Kaprun","Wasserfallboden","K26",50606026,"Geierkögerllawine","Winterkarl","BildKaprun\Tal.jpg",,,,,,,,,"399966.689011965","225348.12719548552","12.256839831630646",459,805,172,598
+27,"Kaprun","Wasserfallboden","K27",50606027,"Königstuhllawine","Niedere Kammerscharte","BildKaprun\Tal.jpg",,,,,,,,,"401211.3382949494","226525.7978744241","8.823073056565107",310,816,76,632
+28,"Kaprun","Wasserfallboden","K28",50606028,"Griesbachlawine","Winterkarl","BildKaprun\Tal.jpg",,,,,,,,,"401356.0596920357","226681.47093331607","8.296388608415224",622,852,189,526
+29,"Kaprun","Wasserfallboden","K29",50606029,"Lärchwandlawine","Lärchwand","BildKaprun\Tal.jpg",,,,,,,,,"401085.862260907","226294.5276151313","9.25105651658798",349,805,124,599
+30,"Kaprun","Wasserfallboden","K30",50606030,"Grasbichlgrabenlawine","Grießbachköpfl","BildKaprun\Tal.jpg",,,,,,,,,"401202.232540879","226548.21912987248","8.53858389141241",650,781,254,470
+31,"Kaprun","Wasserfallboden","K31",50606031,"Schwarze - Wand - Lawine","Lärchwand","BildKaprun\Tal.jpg",,,,,,,,,"400854.8741106996","226023.81837230726","10.11955326612216",418,768,132,564
+32,"Kaprun","Wasserfallboden","K32",50606032,"Überfuhrlawine","Grießbachkarl","BildKaprun\Tal.jpg",,,,,,,,,"401737.92331551044","227071.08024871346","7.482691813404547",660,737,274,431
+33,"Kaprun","Wasserfallboden","K33",50606033,"Schrahnbachlawine","Hohe Kammer","BildKaprun\Tal.jpg",,,,,,,,,"401354.72804146504","226799.49980357956","7.724308008335319",362,801,41,546
+34,"Kaprun","Wasserfallboden","K34",50606034,"Wintergassenlawine","Kälberpallen","BildKaprun\Tal.jpg",,,,,,,,,"401784.4389658273","227249.3208299487","7.1912391275864715",554,659,293,435
+35,"Kaprun","Wasserfallboden","K35",50606035,"Zeferetbachlawine","Schmiedinger See","BildKaprun\Tal.jpg",,,,,,,,,"401944.50844222127","227685.75635839574","6.173486825431714",414,814,-72,437
+36,"Kaprun","Wasserfallboden","K36",50606036,"Rauchlochgrabenlawine","Kälberpallen","BildKaprun\Tal.jpg",,,,,,,,,"402396.292824544","228239.8010354612","5.289508171503721",614,661,290,391
+37,"Kaprun","Wasserfallboden","K37",50606037,"Jägerrinne","Geißstein","BildKaprun\Tal.jpg",,,,,,,,,"401205.592778999","226325.10650865827","9.025046314208751",373,628,148,424
+38,"Kaprun","Wasserfallboden","K38",50606038,"Krapfgrabenlawine","Krapfkühkarl","BildKaprun\Tal.jpg",,,,,,,,,"400878.7903149899","226117.62119528223","9.237857998762156",663,656,308,384
+39,"Kaprun","Wasserfallboden","K39",50606039,"Breitriesenlawine","Geißstein","BildKaprun\Tal.jpg",,,,,,,,,"401582.1580179845","227068.18387020752","7.627503319485055",397,595,79,342

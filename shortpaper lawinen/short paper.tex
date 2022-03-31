@@ -1,0 +1,150 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[includeheadfoot,margin=2.5cm]{geometry}
+
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+
+\usepackage{csquotes}
+\usepackage{abbrevs}
+\usepackage[backend=bibtex, style=ieee, citestyle=ieee]{biblatex}
+\bibliography{Bibliography}
+
+\usepackage[english,ngerman]{babel}
+
+\include{_Configuration}
+
+\title{\titlename}
+
+\author{ \authorname\\ \scriptsize \authormail \\ \scriptsize \address }
+\author{ \authorid\\ \scriptsize \address }
+
+
+\date{\exposedate}
+
+
+\begin{document}
+\selectlanguage{english}
+
+
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+
+
+
+
+
+
+
+
+
+\section{Introduction}
+Avalanches are among the most dangerous natural disasters \autocite{Lawine:2019}. They threaten people and environment in seasonally snow-covered mountain regions such as the alps. In 2021, 265 recorded avalanches (recoreded on Lawis) in Austria killed 17 people and injured 5 others. A total of 41 people were involved in the events \autocite[]{Lawis:2022}. The occurrence of snow avalanches is steadily increasing due to climate change \autocite{Martin:2001} \autocite[]{Tiwari:2021} \autocite{Bahram:2019}.  In order to enable preventive measures to combat avalanches, a good assessment of the impending danger is necessary. The complexity of this task has already been described in several studies. It comes from the fact that there are many potentially influancial parameters, of which in most scenarios only a few are available and and they change significantly even for small geographical differences. For example, the estimation of avalanche danger levels is mostly based on weather data, which are also predicted, results of snowpack models and data on snow instability. In addition, information on the terrain is often used for these features \autocite{Bahram:2019}. Avalanches have been artificially triggered by explosions for a long time. For this preventive fight against snow avalanche accidents, automatic and semi-automatic snow avalanche detection systems have been developed.Of these, infrasound-based systems are the most promising, in the early detection of slow avalanches, for example ice avalanches \autocite{THURING201560} \autocite{Lawine:2019}. In addition, these systems are used to detect as many avalanches as possible. Many avalanches have not been recorded, which means that the accuracy of predictions made by automatic systems is compromised. Geographic Information Systems (GIS), Hierarchy Process Methods (AHP), and Remote Sensing (RS) are used together for this purpose to assess and assess avalanche hazards. with the help of these systems avalanche hazards can be detected, but they have a high error rate. Therefore, predicting the risk of avalanches on selected slopes would be a great improvement in the precision of preventing avalanches by blasting them.  It has been revealed that some machine learning can achieve good results in predicting natural disasters and explicit avalanches \autocite[]{Martin:2001} \autocite[]{Tiwari:2021} \autocite{Bahram:2019}. Avalanche warning services could receive promising forecasts for the following days in advance and make them available to the public. This leads to a significant increase in safety for backcountry skiers and other winter mountain sports enthusiasts.
+\newline
+Backcountry skiing is a sport in which the athletes are skiing unmarked or unguarded areas within or outside the boundaries of a ski resort. For this, they either climb the mountain with touring skis or are brought up by helicopter or snowmobile. Having good predictions for the avalanche hazard, makes it easier and safer to plan these tours. This has led to the author's personal interest for this topic and the resulting possibilities to get high precision predictions of avalanches hazard for explizit Slopes by the use of machine learning models.
+\newline
+\newline
+The aim of the master thesis is to predict the probability of avalanches from explicit slopes. These predictions should be made for a certain number of days in the future, for example for one week in the future. This is done by using terrain related data (e.g. slope, slope orientation by cardinal directions or proximity to rivers and streams) in conjunction with meteorological data for the day to be predicted (e.g. weather, temperature, snow depth, wind direction), wich will be also used retrospective. Thus, the study is intended to provide an answer to the questions, "What data features are needed to predict a day-accurate avalanche probability for explicit slopes by the use of machine learning methods?" and "How many days in advance can these predictions be determined?". 
+
+
+
+
+
+
+
+
+\section{Related Work}
+In the context of avalanche risk prediction, several studies have already been conducted. Machine learning methods have been applied on this purpose. Data sets of avalanche events from smaller mountain areas were used as case studies. In the alps a dataset of avalanche events from the area around Davos, Swizerland over the last 13 years is one Example for these case studies. The study about the data from Davos aimed to predict an entire winter season of avalanche days.
+To get the Meteorological Data for their study the Team form the SLF, Swizerland combined the data of snow avalanche events with those of an automatic weather station and the simulated snowpack properties, like new snow depth, liquid water content, Stability indices, critical crack length,  and the hand hardness,  of the SNOWPACK model. A random forest model was then trained on these merged data. One finding of the resulting study is that the predictions without the snowpack factors are just as good as those without this additional data. Furthermore, they concluded that their prediction attempts were severely limited by the use of inaccurate, biased avalanche-related data and by the fact that the spatial scale was too large for their models. They came to the result that forecasting on a small spatial scale using only one avalanche warning system could work well and could be a good aid for avalanche hazard forecasting services. \autocite{Harvey:2016}.
+In another study, avalanche hazard maps were attempted using predictions from machine learning methods.  The space around the watershed of Karaj, Iran was used in this paper. The machine learning methods used in this study were SVM and MDA.Also for this purpose, various meteorological data were brought in and used to train the algorithms. From the study, it was found that avalanches seem to slide out mainly in the vicinity of streams. In addition, MDA performed better in predicting avalanche danger compared to SVM. Both methods produced results with an accuracy of 0.83 for the SVM and 0.85 for the MDA. \autocites{Bahram:2019}.
+
+
+
+
+
+
+
+
+\section{Concept}
+
+\subsection{Avalanche Expert Survey}
+Determining avalanches is a complex task, and for this purpose avalanche awareness levels have been developed. These are determined on the basis of various factors at the respective time and for the respective location. For this reason the first empirical part of the work, a survey of avalanche experts is conducted in the form of a questionnaire. 
+The purpose of this survey is to obtain information about the current approach of the experts in the determination of avalanche danger levels. The evaluation can also provide initial indications of good features in the data and be helpful in feature selection. In the course of the Master Thesis, the results of this survey will also serve as an additional evaluation and comparison for the results of the machine learning models.
+
+
+
+
+
+\subsection{Implementation}
+\subsubsection{Data}
+ Recorded avalanche events are rare and a whole data set of homogeneous data is even more. If you want to predict avalanches you also need Meteorological Factors over the entire period of the study, wich can lead to the formation of wet and dry avalanches \autocites{Harvey:2016}.
+The study area for this case study is the AHP Verbund Kaprun/Mooserboden. The homogeneous long-term data set of the mentioned region was provided by the Avalanche Warning Service Salzburg.
+The data consists of a combination of avalanche related data (avalanche type, avalanche size, and others), daily breakdown of meteorological data (weather, temperature, wind direction, wind strength, etc.), and terrain data. This information is combined in a daily resolution in a homogeneous data set over the years.
+
+
+
+
+
+
+\subsubsection{Feature Selection}
+Analyzing high-dimensional data sets has always been a major challenge for data scientists and machine learning engineers. Machine learning research has long assumed that too many columns of data lead to a reduction in prediction quality. Therefore, it is even more important to focus on a small number of features \autocites{CAI201870}. 
+In the past, several studies have been done to find good parameters for the complex prediction of avalanches. 
+How important parameters were considered to be for the avalanches in each study seems to be strongly related to what parameters were available for the study. 
+For example, in the study in Iran from the article "Snow avalanche hazard prediction using machine learning methods" \autocite{Bahram:2019}, elevation was not ranked as particularly important for prediction, whereas in a study in India from the article "Parameter importance assessment improves efficacy of machine learning methods for predicting snow avalanche sites in Leh-Manali Highway, India" \autocite[]{Tiwari:2021}, it has been ranked as the second most important feature. 
+In the First Study, more additional meteorological and geographic parameters were available, which appear to be more important than the elevation \autocite{Bahram:2019} \autocite[]{Tiwari:2021}. 
+From the knowledge gained through the research that a good feature selection naturally depends on the available features and the feature to be predicted, the survey of avalanche experts on their methods and the parameters, wich are used by them to calculate the avalanche risk, are used in this study to get knowledge about how important each parameter is for the creation of avalanche risk reports. These Informations can also be important for the Feature Selection.
+To get a good comparison and as well as good features, in addition typical methods from data science for sensitivity analysis are performed to find a set of suitable data columns for building the machine learning models. 
+In addition, the relevance of the characteristics identified in other studies is evaluated and compared with the results from the study prepared for this purpose.
+
+
+
+
+
+\subsubsection{Machine Learning Models}
+In order to achieve adequate results, a series of machine learning models will be trained in the context of the thesis. In the past, some models have already proven their worth in predicting natural disasters. For example, the SVM (support vector machine) and the MDA (multivariate discriminant analysis) models. They are useful for detecting subtle patterns in complex data sets and Flexible in handling data of different dimensions. SVM models are desgined to deal with high dimensional data. Thats one aspect why they have already been used to predict natural disasters, such as earthquakes, floods, typhoons, drought, landslides and avalanches \autocite{Bahram:2019} \autocite[]{Tiwari:2021} \autocite{Pozdnoukhov:2008}. MDA forms efficient linear combinations of independent variables. MDAs have not been used that often to predict natural disasters, but shows superior performance compared to SVM in the case study in the Karaj water conservation area in predicting avalanche risk levels \autocite[]{Tiwari:2021}. Because SVM and MDA models have proven themselves in the prediction of natural disasters, they will be used for the studies of this Master thesis.
+
+
+
+
+
+\subsubsection{Results}
+The prediction quality of the machine learning models is evaluated using various statistics such as accuracy, false alarm rate, and others. All evaluations of the MDA and SVM will be compared to each other. One finding of the study will be which of the two methods has the best performance in predicting avalanches with the available data.
+In addition, the effectiveness of each feature used to train the ML models is also determined using statistical values such as the decrease in correlation and the AUC statistic. The values determined are compared with those of the other models in the course of the evaluation and the differences are recorded. 
+All findings from the evaluations of the machine learning models are also compared with the results from the survey of avalanche experts.
+
+
+
+
+
+\subsubsection{Generalization}
+In Data Science and the topic of machine learning it has always been interesting if the trained models can be used for similar scenarios but with different conditions. 
+For the approach to test the generalizability of the trained machine learning models of this thesis, an additional data set was provided by the Swiss Institute for Snow and Avalanche Research (SLF). This dataset contains records of avalanche events in the area of Davos, Swizerland, as well as the meteorological data of the entire period. in the course of the general contact with all avalanche warning services in the alpine region, while the research for high quality and homogeneous data in connection with avalanche events of the last years. It was pointed out to me that the data set has already been used several times to train machine learning models.  With this data, a random forest model was trained in a study by Harvey, Alec van Herwijnen and Bettina Richter.
+
+
+
+
+
+
+\section{Supervisor}
+In the context of the master thesis I am in contact with my potential supervisor Professor Doctor Simon Ginzinger. He gave me the feedback that the topic is very interesting and does have the potential and scope for a master thesis. Such as most data science projects this topic is very dependent on the necessary data. In the course of this I contacted various avalanche warning services in the alpine region. 
+Some of them were very interested in my project and the avalanche warning service Salzburg offered me the support of Ing. Harald Etzer who is the head of the Verbund AHP Kaprun/Mooserboden and supports the project. He also arranged that I receive the data used for the master thesis. In addition, the Avalanche Warning Service Salzburg will provide me with the necessary data.
+
+
+
+
+\newpage
+\addcontentsline{toc}{section}{References}
+\printbibliography
+
+
+
+
+
+
+
+
+\end{document}
