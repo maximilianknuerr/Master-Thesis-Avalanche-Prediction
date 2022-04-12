@@ -24,7 +24,7 @@
 
 
 \begin{document}
-\selectlanguage{english}
+\selectlanguage{ngerman}
 
 
 
@@ -34,17 +34,59 @@
 \newpage
 
 
+\section{Related Work}
+
 
 \section{Daten}
 
 \subsection{Herkunft der Daten}
-Der Lawinenwarndienst des Energieunternehmens Verbund AG in Kaprun, Salzburg stellt die für die durchführung dieser Arbeit notwendigen Daten bereit. Die Daten bestehen aus mehreren Tabellen, die im Kontext von 39 Lawinenstrichen in der Umgebung des Speichersees Mooserboden, Kaprun stehen. Die für diese Arbeit relevanten Tabellen beinhalten Geografische Faktoren der 39 Lawinenstriche, Lawinenabgänge, sowie Wetterdaten im Zeitraum von 1956 bis 2022. Um eine größere Homogenität der Daten zu gewährleisten wurden ausschließlich Daten ab 1992 für diese Arbeit genutzt.
+
+\subsubsection{Dateneigentümer}
+Der Lawinenwarndienst des Energieunternehmens VERBUND AG mit sitz in Kaprun, Salzburg stellt die, für die Durchführung dieser Arbeit notwendigen, Daten bereit. Der VERBUND stellt Österreichs führende Energieunternehmen dar und ist Europas größter Stromerzeuger aus Wasserkraft. Das Unternehmen gibt an, nahezu 100\% ihrer Stromerzeugnisse aus erneuerbaren Energien zu beziehen. Dabei wird der Strom hauptsächlich aus Wasser-, Wind- und Photovoltaikkraftwerken erzeugt. Zusätzlich wird dieser durch Gas beheizte Wärmekraftwerke unterstützt\autocites{Verbund:2022}.
+
+\subsubsection{Gebiet}
+Die Daten wurden in der Umgebung des Speicherkraftwerks Mooserboden für 39 Lawinenstriche aufgezeichnet. Der Hintergrund für die außergewöhnlich genauen Aufzeichnungen der Lawinen ist die Notwendigkeit der möglichst genauen Vorhersage von Lawinen in den 39 Lawinenstrichen rund um das Kraftwerk. Die genaue Vorhersage ist von großer Wichtigkeit um die Sicherheit der Mitarbeiter gewährleisten zu können, die in den gebieten der Lawinenstriche arbeiten. Das Kraftwerk ist teil der Kraftwerksgruppe Kaprun, die sowohl Pump- als auch Speicherkraftwerken umfasst. Die Kraftwerksgruppe wird von der Verbund Hydro Power betrieben und befindet sich in Salzburg am Rand der Hohen Tauern auf 2040 Meter Seehöhe und ist umringt von den über 3000 Meter hohen Bergen der Glocknergruppe.\autocites{VerbundKaprun:2022}
+ 
+ 
+\subsection{Aufbau des Datensets}
+Die Datenaufzeichnungen wurden in Form einer Acess Datenbank bereitgestellt. 
+Für diese Arbeit wichtige Tabellen der Datenbank sind:
+\begin{itemize}
+	\item Allg\_Lawinen\_Katalog \hfill \\ bildet allgemeine Daten zu den Lawinenabgängen ab.
+	\item kaplawstr \hfill \\ enthält die Namen, sowie alten und neuen IDs der Lawinenstriche.
+	\item TOPP \hfill \\ stellt Topografische Informationen zu einzelnen Lawinenereignissen in den Lawinenstrichen dar.
+	\item Mooser\_Wetter\_Daten \hfill \\ enthält Tages genaue Wetter Daten der Wintermonate von Anfang Dezember bis mitte Mai.
+\end{itemize}
+	
+
+
+Die Tabelle kaplawstr wurde anhand der alten Lawinenstrich ID auf die Tabelle Allg\_Lawinen\_Katalog gemerged. Dies fügt zu jeder Lawine den zugehörigen neuen Lawinencode und Lawinennamen hinzu, die zusätzlich als ID genutzt werden. In diesem Schritt wurden alle Zeilen, die mit dem Lawinenstrichnamen "alle Lawinen" bezeichnet wurden entfernt, da diese keinen genauen abgang einer Lawine in einem der Lawinen Striche meint sondern lediglich besagt dass in vielen der Lawinenstriche kleine Lawinen abgegangen sind. 
+
+Im zweiten Schritt wurden aus der TOPP Tabelle für jeden Lawinenstrich die Durchschnittswerte für alle spalten aus den dazugehörigen Lawinen berechnet und anhand des neuen Lawinencodes auf Lawinenabgänge aus der im ersten Schritt entstanden Tabelle gemerged und somit die Topografischen Informationen der Lawinenstriche den Lawinenabgängen hinzugefügt. Die in Allg\_Lawinen\_Katalog erfassten Lawinen, auf denen das jetzt entstandene Datenset entsteht wurden mit Zeit und Datum erfasst.
+
+Darauf folgend wurden diese Lawinenabgänge anhand des Datums durch einen Outer Join den Tages aktuellen Wetterdaten der Mooser\_Wetter\_Daten Tabelle zugeordnet, so dass es jeden Tag mindestens einmal im Datenset gibt. In den Fällen, in denen an einem Tag mehrere große Lawinen abgegangen sind enthält das Datenset für jede Lawine eine Zeile mit allen Wetterdaten. 
+
+Da es für das Trainieren der Modelle wichtig ist für jeden Tag Hangdaten anzugeben wurden im letzten Schritt die in Schritt Zwei berechneten Durchschnittswerte der Topografsichen Informationen aus TOPP randomisiert, auf die Tage an denen keine Lawinenabgänge aufgezeichnet wurden, verteilt
+ 
 
 \subsubsection{Wetterdaten}
+Die im Datenset enthaltenen Wetterinformationen beinhalten
 
 \subsubsection{Lawinen bezogene Daten}
 
-\subsubsection{Geografische Daten}
+\subsubsection{Topografische Daten}
+
+\section{Feature Selection}
+
+\subsection{Decision Tree}
+
+\section{Machine Learning Modelle}
+
+\subsection{SVM (Support Vector Machine)}
+
+\subsection{MDA (multivariate discriminant analysis)}
+
+\subsection{Neuronal Network}
 
 
 
@@ -68,3 +110,4 @@ Der Lawinenwarndienst des Energieunternehmens Verbund AG in Kaprun, Salzburg ste
 
 
 \end{document}
+a
