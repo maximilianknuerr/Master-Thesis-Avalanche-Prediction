@@ -1,0 +1,561 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  12 APR 2022 18:11
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count190
+\lst@gtempboxa=\box47
+\lst@token=\toks19
+\lst@length=\count191
+\lst@currlwidth=\dimen147
+\lst@column=\count192
+\lst@pos=\count193
+\lst@lostspace=\dimen148
+\lst@width=\dimen149
+\lst@newlines=\count194
+\lst@lineno=\count195
+\lst@maxwidth=\dimen150
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count196
+\lst@skipnumbers=\count197
+\lst@framebox=\box48
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
+)
+\csq@reset=\count199
+\csq@gtype=\count266
+\csq@glevel=\count267
+\csq@qlevel=\count268
+\csq@maxlvl=\count269
+\csq@tshold=\count270
+\csq@ltx@everypar=\toks20
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/frankenstein/abbrevs.sty
+Package: abbrevs 2001/09/08 v1.4 abbreviation macros (Frankenstein's briefs)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/frankenstein/moredefs.sty
+Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
+\sc@toks@a=\toks21
+\sc@toks@b=\toks22
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/frankenstein/slemph.sty
+Package: slemph 1999/02/25 v1.2 slanted emphasis (Frankenstein's gait)
+LaTeX Info: Redefining \itswitch on input line 177.
+LaTeX Info: Redefining \slswitch on input line 186.
+LaTeX Info: Redefining \textitswitch on input line 195.
+LaTeX Info: Redefining \textslswitch on input line 196.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/frankenstein/slemph.cfg
+File: slemph.cfg 
+))
+\c@tm@util=\count271
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/frankenstein/abbrevs.cfg
+File: abbrevs.cfg 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count272
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count273
+\c@listtotal=\count274
+\c@listcount=\count275
+\c@liststart=\count276
+\c@liststop=\count277
+\c@citecount=\count278
+\c@citetotal=\count279
+\c@multicitecount=\count280
+\c@multicitetotal=\count281
+\c@instcount=\count282
+\c@maxnames=\count283
+\c@minnames=\count284
+\c@maxitems=\count285
+\c@minitems=\count286
+\c@citecounter=\count287
+\c@maxcitecounter=\count288
+\c@savedcitecounter=\count289
+\c@uniquelist=\count290
+\c@uniquename=\count291
+\c@refsection=\count292
+\c@refsegment=\count293
+\c@maxextratitle=\count294
+\c@maxextratitleyear=\count295
+\c@maxextraname=\count296
+\c@maxextradate=\count297
+\c@maxextraalpha=\count298
+\c@abbrvpenalty=\count299
+\c@highnamepenalty=\count300
+\c@lownamepenalty=\count301
+\c@maxparens=\count302
+\c@parenlevel=\count303
+\blx@tempcnta=\count304
+\blx@tempcntb=\count305
+\blx@tempcntc=\count306
+\blx@maxsection=\count307
+\blx@maxsegment@0=\count308
+\blx@notetype=\count309
+\blx@parenlevel@text=\count310
+\blx@parenlevel@foot=\count311
+\blx@sectionciteorder@0=\count312
+\blx@entrysetcounter=\count313
+\blx@biblioinstance=\count314
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language87
+\c@mincomprange=\count315
+\c@maxcomprange=\count316
+\c@mincompwidth=\count317
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count318
+\c@savedafterword=\count319
+\c@annotator=\count320
+\c@savedannotator=\count321
+\c@author=\count322
+\c@savedauthor=\count323
+\c@bookauthor=\count324
+\c@savedbookauthor=\count325
+\c@commentator=\count326
+\c@savedcommentator=\count327
+\c@editor=\count328
+\c@savededitor=\count329
+\c@editora=\count330
+\c@savededitora=\count331
+\c@editorb=\count332
+\c@savededitorb=\count333
+\c@editorc=\count334
+\c@savededitorc=\count335
+\c@foreword=\count336
+\c@savedforeword=\count337
+\c@holder=\count338
+\c@savedholder=\count339
+\c@introduction=\count340
+\c@savedintroduction=\count341
+\c@namea=\count342
+\c@savednamea=\count343
+\c@nameb=\count344
+\c@savednameb=\count345
+\c@namec=\count346
+\c@savednamec=\count347
+\c@translator=\count348
+\c@savedtranslator=\count349
+\c@shortauthor=\count350
+\c@savedshortauthor=\count351
+\c@shorteditor=\count352
+\c@savedshorteditor=\count353
+\c@labelname=\count354
+\c@savedlabelname=\count355
+\c@institution=\count356
+\c@savedinstitution=\count357
+\c@lista=\count358
+\c@savedlista=\count359
+\c@listb=\count360
+\c@savedlistb=\count361
+\c@listc=\count362
+\c@savedlistc=\count363
+\c@listd=\count364
+\c@savedlistd=\count365
+\c@liste=\count366
+\c@savedliste=\count367
+\c@listf=\count368
+\c@savedlistf=\count369
+\c@location=\count370
+\c@savedlocation=\count371
+\c@organization=\count372
+\c@savedorganization=\count373
+\c@origlocation=\count374
+\c@savedoriglocation=\count375
+\c@origpublisher=\count376
+\c@savedorigpublisher=\count377
+\c@publisher=\count378
+\c@savedpublisher=\count379
+\c@language=\count380
+\c@savedlanguage=\count381
+\c@origlanguage=\count382
+\c@savedoriglanguage=\count383
+\c@pageref=\count384
+\c@savedpageref=\count385
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count386
+\c@textcitetotal=\count387
+\c@textcitemaxnames=\count388
+\c@biburlbigbreakpenalty=\count389
+\c@biburlbreakpenalty=\count390
+\c@biburlnumpenalty=\count391
+\c@biburlucpenalty=\count392
+\c@biburllcpenalty=\count393
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count394
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2020/12/29 v1.3d biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count395
+\c@bbx:relatedtotal=\count396
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2020/12/29 v1.3d biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count397
+\c@cbx@tempcntb=\count398
+\c@cbx@tempcntc=\count399
+\c@cbx@tempcntd=\count400
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count401
+\U@D=\dimen151
+\l@babelnohyphens=\language88
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count402
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+)))
+\@input{_Configuration.aux}
+\openout2 = `_Configuration.aux'.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/_Configuration.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count403
+\l__pdf_internal_box=\box49
+) (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
+\openout1 = `masterarbeit.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=635.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-1.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count404
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `masterarbeit-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'masterarbeit.bbl' found.
+ (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.bbl)
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+ (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+)
+\tf@toc=\write4
+\openout4 = `masterarbeit.toc'.
+
+ [1
+
+
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 55.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (47.78793pt too wide) in paragraph at lines 63--64
+[]\OT1/ptm/m/n/12 Die Ta-bel-le kap-lawstr wur-de an-hand der al-ten La-wi-nen-strich ID auf die Ta-bel-le Allg[]Lawinen[]Katalog
+ []
+
+[2] [3]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 103.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [4] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
+Package logreq Info: Writing requests to 'masterarbeit.run.xml'.
+\openout1 = `masterarbeit.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11999 strings out of 478994
+ 217478 string characters out of 5858185
+ 786824 words of memory out of 5000000
+ 29337 multiletter control sequences out of 15000+600000
+ 419633 words of font info for 57 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 73i,7n,74p,1913b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on /Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.pdf (4 pages, 48405 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
