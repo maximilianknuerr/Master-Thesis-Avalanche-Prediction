@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  12 APR 2022 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  4 MAY 2022 06:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -72,7 +72,25 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
@@ -402,7 +420,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 53.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -412,20 +430,20 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
 \openout1 = `masterarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -462,9 +480,23 @@ LaTeX Font Info:    ... okay on input line 26.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count404
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count405
+\scratchdimen=\dimen152
+\scratchbox=\box50
+\nofMPsegments=\count406
+\nofMParguments=\count407
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count408
+\MPscratchDim=\dimen153
+\MPnumerator=\count409
+\makeMPintoPDFobject=\count410
+\everyMPtoPDFconversion=\toks24
+)
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
 File: ngerman.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
@@ -501,61 +533,158 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 \openout3 = `masterarbeit-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'masterarbeit.bbl' found.
- (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
+Package biblatex Info: ... file 'masterarbeit.bbl' not found.
+
+No file masterarbeit.bbl.
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 31.
+(Font)              <14.4> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
- (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
-)
+(Font)              <7> on input line 58.
+No file masterarbeit.toc.
 \tf@toc=\write4
 \openout4 = `masterarbeit.toc'.
 
- [1
+[1
 
 
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 55.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (47.78793pt too wide) in paragraph at lines 63--64
-[]\OT1/ptm/m/n/12 Die Ta-bel-le kap-lawstr wur-de an-hand der al-ten La-wi-nen-strich ID auf die Ta-bel-le Allg[]Lawinen[]Katalog
+
+LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Lawis:2022' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'THURING201560' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
  []
 
-[2] [3]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 103.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [4] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
+[2]
+
+LaTeX Warning: Citation 'Harvey:2016' on page 3 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 85.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 89.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 3 undefined on input line 89.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 90.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 3 undefined on input line 90.
+
+[3]
+
+LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 96.
+
+
+LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 96.
+
+
+LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 97.
+
+
+LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 103.
+
+
+LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 104.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 4 undefined on input line 116.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 4 undefined on input line 116.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 4 undefined on input line 116.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 4 undefined on input line 116.
+
+[4] [5]
+
+LaTeX Warning: Empty bibliography on input line 153.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                masterarbeit
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'masterarbeit.run.xml'.
 \openout1 = `masterarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11999 strings out of 478994
- 217478 string characters out of 5858185
- 786824 words of memory out of 5000000
- 29337 multiletter control sequences out of 15000+600000
- 419633 words of font info for 57 fonts, out of 8000000 for 9000
+ 12851 strings out of 478994
+ 227452 string characters out of 5858185
+ 806147 words of memory out of 5000000
+ 30192 multiletter control sequences out of 15000+600000
+ 416366 words of font info for 46 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,7n,74p,1913b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.pdf (4 pages, 48405 bytes).
+ 73i,7n,74p,2783b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on /Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.pdf (5 pages, 44563 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

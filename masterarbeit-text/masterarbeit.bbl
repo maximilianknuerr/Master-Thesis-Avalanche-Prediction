@@ -17,24 +17,513 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{Verbund:2022}{online}{}
+  \entry{Lawine:2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=bHMV}{%
+         prefix={by},
+         prefixi={b\bibinitperiod},
+         family={Hermann\bibnamedelima Maurer},
+         familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Verified},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HMVb1}
+    \strng{fullhash}{HMVb1}
+    \field{labelnamesource}{author}
     \verb{url}
-    \verb https://www.verbund.com/de-at/ueber-verbund
+    \verb https://austria-forum.org/af/AustriaWiki/Lawine?version=3
+    \endverb
+    \field{version}{3}
+    \list{institution}{1}{%
+      {TU Graz}%
+    }
+    \field{year}{2019}
+    \field{urlday}{15}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Lawis:2022}{online}{}
+    \name{author}{1}{}{%
+      {{hash=LTLSLOLVLKUWLS}{%
+         family={Lawinenwarndienst\bibnamedelima Tirol},
+         familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+         suffix={Lawinenwarndienst\bibnamedelima Steiermark},
+         suffixi={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Lawinenwarndienst Salzburg Lawinenwarndienst
+  Oberösterreich-Lawinenwarndienst Vorarlberg Lawinenwarndienst Kärnten
+  Universität\bibnamedelima Wien},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim O\bibinithyphendelim
+  L\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  U\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LTLSLSLOLVLKUW1}
+    \strng{fullhash}{LTLSLSLOLVLKUW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Lawinen Ereignisse}}
+    \verb{url}
+    \verb https://lawis.at/incident/
     \endverb
     \field{year}{2022}
-    \field{urlday}{01}
+    \field{urlday}{10}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{Martin:2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EMYLGBGG}{%
+         family={Eric\bibnamedelima Martin},
+         familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+         suffix={Gérald\bibnamedelima Giraud},
+         suffixi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Yves Lejeune Géraldine\bibnamedelima Boudart},
+         giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EMGGYLGB1}
+    \strng{fullhash}{EMGGYLGB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The SAFRAN/Crocus/MÉPRA software is used to assess the climatology of the
+  avalanche hazard and its sensitivity to climate change. A natural
+  avalanche-hazard index based on MEPRA analysis is defined and validated
+  against natural avalanche observations (triggered avalanches are not taken
+  into account). A 15 year climatology then allows a comparison of avalanche
+  hazard in the different French massifs. Finally a simple climate scenario
+  (with a general increase of precipitation and temperature) shows that
+  avalanche hazard may decrease slightly in winter (mainly February) and more
+  significantly in May/June. The relative proportion of wet-snow avalanches
+  increases.%
+    }
+    \field{pages}{163\bibrangedash 167}
+    \field{title}{{Impact of a climate change on avalanche hazard}}
+    \verb{url}
+    \verb https://doi.org/10.3189/172756401781819292
+    \endverb
+    \field{volume}{32}
+    \field{journaltitle}{Annals of Glaciology}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Tiwari:2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ATBDVAG}{%
+         family={Anuj\bibnamedelima Tiwari},
+         familyi={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+         suffix={Arun\bibnamedelima G.},
+         suffixi={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Bramha Dutt\bibnamedelima Vishwakarma},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ATAGBDV1}
+    \strng{fullhash}{ATAGBDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Due to ongoing climate change, water mass redistribution and related
+  hazards are getting stronger and frequent. Therefore, predicting extreme
+  hydrological events and related hazards is one of the highest priorities in
+  geosciences. Machine Learning (ML) methods have shown promising prospects in
+  this venture. Every ML method requires training where we know both the output
+  (extreme event) and input (relevant physical parameters and variables). This
+  step is critical to the efficacy of the ML method. The usual approach is to
+  include a wide variety of hydro-meteorological observations and physical
+  parameters, but recent advances in ML indicate that the efficacy of ML may
+  not improve by increasing the number of input parameters. In fact, including
+  unimportant parameters decreases the efficacy of ML algorithms. Therefore, it
+  is imperative that the most relevant parameters are identified prior to
+  training. In this study, we demonstrate this concept by predicting avalanche
+  susceptibility in Leh-Manali highway (one of the most severely affected
+  regions in India) with and without Parameter Importance Assessment (PIA). The
+  avalanche locations were randomly divided into two groups: 70% for training
+  and 30% for testing. Then, based on temporal and spatial sensor data, eleven
+  avalanche influencing parameters were considered. The Boruta algorithm, an
+  extension of Random Forest (RF) ML method that utilizes the importance
+  measure to rank predictors, was used and it found nine out of eleven
+  parameters to be important. Support Vector Machine (SVM) based ML technique
+  is used for avalanche prediction, and to be comprehensive, four different
+  kernel functions were employed (linear, polynomial, sigmoid, and radial basis
+  function (RBF)). The prediction accuracy for linear, polynomial, sigmoid, and
+  RBF kernels, with all the eleven parameters were found to be 80.4%, 81.7%,
+  39.2%, and 85.7%, respectively. While, when using selected parameters, the
+  prediction accuracy for linear, polynomial, sigmoid, and RBF kernels were
+  84.1%, 86.6%, 43.0%, and 87.8%, respectively. We also identified locations
+  where occurrences of avalanches are most likely. We conclude that parameter
+  selection should be considered when applying ML methods in geosciences.%
+    }
+    \field{title}{Parameter importance assessment improves efficacy of machine
+  learning methods for predicting snow avalanche sites in Leh-Manali Highway,
+  India}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.scitotenv.2021.148738
+    \endverb
+    \field{volume}{794}
+    \field{journaltitle}{Science of The Total Environment}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Bahram:2019}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BCAMFSHVPSSMB}{%
+         family={Bahram\bibnamedelima Choubin},
+         familyi={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+         suffix={Moslem\bibnamedelima Borji},
+         suffixi={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Amir Mosavi Farzaneh Sajedi-Hosseini Vijay P.Singh
+  Shahaboddin\bibnamedelima Shamshirband},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  F\bibinitperiod\bibinitdelim S\bibinithyphendelim
+  H\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BCMBAMFSHVPSS1}
+    \strng{fullhash}{BCMBAMFSHVPSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Snow avalanches are among the most destructive natural hazards threatening
+  human life, ecosystems, built structures, and landscapes in mountainous
+  regions. The complexity of snow avalanche modelling has been discussed in
+  many studies, but its modelling is not well-documented. Snow avalanche
+  modeling in this study was done using three main categories of data,
+  including avalanche occurrence locations, meteorological factors, and terrain
+  characteristics. Two machine learning models, namely support vector machine
+  (SVM) and multivariate discriminant analysis (MDA), were employed. A ratio of
+  70 to 30 of data was considered for calibrating and validating the models.
+  Results indicated that both models had an excellent performance in snow
+  avalanche modeling (area under curve, AUC > 90), although hits and misses
+  analysis demonstrated the superior performance of MDA. Sensitivity analysis
+  indicated that the topographic position index, slope, precipitation, and
+  topographic wetness index were the most effective variables for modeling. A
+  snow avalanche map indicated that the high snow avalanche hazard zone was
+  mostly near the streams and was matched with hillsides around the water
+  pathways. Findings of study can be helpful for land use planning, to control
+  snow avalanche paths, and to prevent the probable hazards induced by it, and
+  it can be a good reference for future studies on modeling snow avalanche
+  hazards.%
+    }
+    \field{title}{{Snow avalanche hazard prediction using machine learning
+  methods}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.jhydrol.2019.123929
+    \endverb
+    \field{volume}{577}
+    \field{journaltitle}{Journal of Hydrology}
+    \field{year}{2019}
+  \endentry
+
+  \entry{THURING201560}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TT}{%
+         family={Thüring},
+         familyi={T\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schoch},
+         familyi={S\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=vA}{%
+         family={{van Herwijnen}},
+         familyi={v\bibinitperiod},
+         given={Alec},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schweizer},
+         familyi={S\bibinitperiod},
+         given={Jürg},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Snow avalanches, Infrasound, Array processing, Automated monitoring,
+  Machine learning}
+    \strng{namehash}{TTSMvA+1}
+    \strng{fullhash}{TTSMvASJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Automated detection of snow avalanches is crucial to assess the
+  effectiveness of avalanche control by explosions, and to monitor avalanche
+  activity in a given area in view of avalanche forecasting. Several automated
+  or semi-automated detection technologies have been developed in the past
+  among which infrasound-based detection is the most promising for
+  regional-scale avalanche monitoring. However, due to significant ambient
+  noise content in infrasonic signals, e.g. from atmospheric processes or
+  airplanes, fully automated and reliable avalanche detection has been very
+  challenging. Signal processing is highly critical and strongly affects
+  detection accuracy. Here, a robust detection method by using supervised
+  machine learning is introduced. Machine learning algorithms can take into
+  account multiple signal features and statistically optimize the
+  classification task. We analyzed infrasound data with concurrent visual
+  avalanche observations from the test site Lavin (Eastern Swiss Alps) for the
+  winter of 2011–2012. A support vector machine was trained by using training
+  data from the first half of the winter season and the accuracy was tested on
+  data from the second half of the season. A significant reduction of false
+  detections, from 65% to 10%, was achieved compared to a threshold-based
+  classifier provided by the sensor manufacturer. The proposed method enables
+  reliable assessment of the avalanche activity in the surroundings of the
+  system and paves the way towards robust and fully automated avalanche
+  detection using infrasonic systems.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.coldregions.2014.12.014
+    \endverb
+    \field{issn}{0165-232X}
+    \field{pages}{60\bibrangedash 66}
+    \field{title}{Robust snow avalanche detection using supervised machine
+  learning with infrasonic sensor arrays}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0165232X14002419
+    \endverb
+    \field{volume}{111}
+    \field{journaltitle}{Cold Regions Science and Technology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Harvey:2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SHBRAvH}{%
+         family={Stephan\bibnamedelima Harvey},
+         familyi={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+         suffix={Alec van\bibnamedelima Herwijnen},
+         suffixi={A\bibinitperiod\bibinitdelim v\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+         given={Bettina\bibnamedelima Richter},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SHAvHBR1}
+    \strng{fullhash}{SHAvHBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Forecasting natural avalanche activity is challenging. Events are
+  relatively rare and several contributory factors affecting the formation of
+  dry- or wet-snow avalanches have to be evaluated. In contrast to previous
+  statistical avalanche forecast models which focus on specific avalanche types
+  or small scales, in this study we developed a model to predict avalanche days
+  for an entire winter season at the regional scale. We therefore analysed an
+  avalanche catalogue consisting of observed avalanches in the region of Davos,
+  Switzerland, over the last 13 years (2003/04 to 2015/16). In combination with
+  data from an automatic weather station and simulated snow cover properties
+  from the model SNOWPACK, we trained random forest models by applying
+  different methods to predict avalanche days. Overall, the predictive
+  performance was in line with other similar studies. However, substantial
+  differences in performance were observed among the 13 winter seasons.
+  Surprisingly, the performance of models without snow cover data from the
+  SNOWPACK simulations was very similar. These results suggest that there is no
+  strong correlation between avalanche activity and snow cover properties,
+  highlighting the limitations of obtained avalanche activity data through
+  visual observations. While more work is still required, the reasonable
+  performance of our statistical model to predict avalanche days show that
+  automatically predicting regional avalanche activity using an automatic
+  weather stations is feasible.%
+    }
+    \field{title}{Statistical Nowcast of Avalanche Activity at the Regional
+  Scale}
+    \verb{url}
+    \verb https://arc.lib.montana.edu/snow-science/item/2437
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{CAI201870}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CJ}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Jiawei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shulin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Sheng},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Feature selection, Dimensionality reduction, Machine learning, Data
+  mining}
+    \strng{namehash}{CJLJWS+1}
+    \strng{fullhash}{CJLJWSYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    High-dimensional data analysis is a challenge for researchers and engineers
+  in the fields of machine learning and data mining. Feature selection provides
+  an effective way to solve this problem by removing irrelevant and redundant
+  data, which can reduce computation time, improve learning accuracy, and
+  facilitate a better understanding for the learning model or data. In this
+  study, we discuss several frequently-used evaluation measures for feature
+  selection, and then survey supervised, unsupervised, and semi-supervised
+  feature selection methods, which are widely applied in machine learning
+  problems, such as classification and clustering. Lastly, future challenges
+  about feature selection are discussed.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.neucom.2017.11.077
+    \endverb
+    \field{issn}{0925-2312}
+    \field{pages}{70\bibrangedash 79}
+    \field{title}{Feature selection in machine learning: A new perspective}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0925231218302911
+    \endverb
+    \field{volume}{300}
+    \field{journaltitle}{Neurocomputing}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Scikit-learn:2022}{online}{}
+    \verb{url}
+    \verb https://scikit-learn.org/stable/modules/tree.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{13}
     \field{urlmonth}{04}
     \field{urlyear}{2022}
   \endentry
 
-  \entry{VerbundKaprun:2022}{online}{}
-    \verb{url}
-    \verb https://www.verbund.com/de-at/ueber-verbund/besucherzentren/kaprun
+  \entry{SUGUMARAN2007930}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SV}{%
+         family={Sugumaran},
+         familyi={S\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MV}{%
+         family={Muralidharan},
+         familyi={M\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Ramachandran},
+         familyi={R\bibinitperiod},
+         given={K.I.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Feature selection, Decision Tree, Roller bearing, Statistical
+  features, PSVM, Fault detection}
+    \strng{namehash}{SVMVRK1}
+    \strng{fullhash}{SVMVRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Roller bearing is one of the most widely used rotary elements in a rotary
+  machine. The roller bearing's nature of vibration reveals its condition and
+  the features that show the nature, are to be extracted through some indirect
+  means. Statistical parameters like kurtosis, standard deviation, maximum
+  value, etc. form a set of features, which are widely used in fault
+  diagnostics. Often the problem is, finding out good features that
+  discriminate the different fault conditions of the bearing. Selection of good
+  features is an important phase in pattern recognition and requires detailed
+  domain knowledge. This paper illustrates the use of a Decision Tree that
+  identifies the best features from a given set of samples for the purpose of
+  classification. It uses Proximal Support Vector Machine (PSVM), which has the
+  capability to efficiently classify the faults using statistical features. The
+  vibration signal from a piezoelectric transducer is captured for the
+  following conditions: good bearing, bearing with inner race fault, bearing
+  with outer race fault, and inner and outer race fault. The statistical
+  features are extracted therefrom and classified successfully using PSVM and
+  SVM. The results of PSVM and SVM are compared.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.ymssp.2006.05.004
     \endverb
-    \field{year}{2022}
-    \field{urlday}{05}
-    \field{urlmonth}{04}
-    \field{urlyear}{2022}
+    \field{issn}{0888-3270}
+    \field{number}{2}
+    \field{pages}{930\bibrangedash 942}
+    \field{title}{Feature selection using Decision Tree and classification
+  through Proximal Support Vector Machine for fault diagnostics of roller
+  bearing}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0888327006001142
+    \endverb
+    \field{volume}{21}
+    \field{journaltitle}{Mechanical Systems and Signal Processing}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Pozdnoukhov:2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PA}{%
+         family={Pozdnoukhov},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Purves},
+         familyi={P\bibinitperiod},
+         given={R.S.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kanevski},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{PAPRKM1}
+    \strng{fullhash}{PAPRKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Avalanche forecasting is a complex process involving the assimilation of
+  multiple data sources to make predictions over varying spatial and temporal
+  resolutions. Numerically assisted forecasting often uses nearest-neighbour
+  methods (NN), which are known to have limitations when dealing with
+  high-dimensional data. We apply support vector machines (SVMs) to a dataset
+  from Lochaber, Scotland, UK, to assess their applicability in avalanche
+  forecasting. SVMs belong to a family of theoretically based techniques from
+  machine learning and are designed to deal with high-dimensional data. Initial
+  experiments showed that SVMs gave results that were comparable with NN for
+  categorical and probabilistic forecasts. Experiments utilizing the ability of
+  SVMs to deal with high dimensionality in producing a spatial forecast show
+  promise, but require further work.%
+    }
+    \verb{doi}
+    \verb 10.3189/172756408787814870
+    \endverb
+    \field{pages}{107–113}
+    \field{title}{Applying machine learning methods to avalanche forecasting}
+    \field{volume}{49}
+    \field{journaltitle}{Annals of Glaciology}
+    \field{year}{2008}
   \endentry
 \enddatalist
 \endinput

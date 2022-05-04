@@ -1,35 +1,25 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Related Work}{2}{}%
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Daten}{2}{}%
+\contentsline {section}{\numberline {2}Related Work}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Herkunft der Daten}{2}{}%
+\contentsline {section}{\numberline {3}Methods}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Dateneigentümer}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Feature selection}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Gebiet}{2}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Decision Tree}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Aufbau des Datensets}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Feature extraction}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Wetterdaten}{3}{}%
+\contentsline {subsection}{\numberline {3.3}Machine Learning Models}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Lawinen bezogene Daten}{3}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}SVM (Support Vector Machine)}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Topografische Daten}{3}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}MDA (multivariate discriminant analysis)}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Feature Selection}{3}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Neuronal Network}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Decision Tree}{3}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Machine Learning Modelle}{3}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}SVM (Support Vector Machine)}{3}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}MDA (multivariate discriminant analysis)}{3}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Neuronal Network}{3}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{4}{}%
+\contentsline {section}{\numberline {4}Data}{5}{}%
