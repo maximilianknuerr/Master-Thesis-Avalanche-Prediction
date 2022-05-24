@@ -1,54 +1,50 @@
 \documentclass[../masterarbeit.tex]{subfiles}
 
 
-\section{Methods}
-
-\subsection{Feature selection}
-
-It is a challenging task in the field of data science to create machine learning models from high dimensional data sets.Machine learning research has long assumed that too many columns of data lead to a reduction in prediction quality. Therefore, it can help to focus on a small number of features \autocites{CAI201870}. 
-This can be achieved by removing redundant and unimportant data columns to get enhance performance in learning efficiency and avoid overfitting. A good Feature Selection can help to get much better predictions from the machine learning models \autocites{CAI201870}. 
+\section{Methodology}
 
 
+\subfile{sections/feature_selection_methods.tex}
 
-Depending on how the training set is labeled, supervised (fully labeled), unsupervised (unlabeled) and semi-supervised (partially labeled) feature selection methods are used \autocites{CAI201870}.
-Good feature selection methods should have a small time and space complexity and do not generate a lot of overhead, but must also have a high learning accuracy  \autocites{CAI201870}. 
-
-
-How important parameters were considered to be for the avalanches in each study seems to be strongly related to what parameters were available and wich machine learning models have been used for the study. 
-For example, in the study in Iran, wich is described in the article "Snow avalanche hazard prediction using machine learning methods" \autocite{Bahram:2019}, elevation was not ranked as particularly important for prediction, whereas in a study in India reported in the paper "Parameter importance assessment improves efficacy of machine learning methods for predicting snow avalanche sites in Leh-Manali Highway, India" \autocite[]{Tiwari:2021}, it has been ranked as the second most important feature. 
-In the First Study, more additional meteorological and geographic parameters were available, which appear to be more important than the elevation \autocite{Bahram:2019} \autocite{Tiwari:2021}. 
+\subsection{Validation}
 
 
-\subsubsection{Decision Tree}
+curve (ROC) analysis to scrutinize the sensitivity, specificity, and accuracy
 
-"Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation." \autocites{Scikit-learn:2022}
-Decision tree are a representation method based on knowledge about the features of a dataset to represent classification rules \autocites{SUGUMARAN2007930}.
-Decision Trees use a set of if-than-else rules to decide wich value to predict. These models are good to understand, interpret and visualisable because they use white box models in wich every step is a boolean logic and easy explainable \autocites{Scikit-learn:2022}. A standard decision tree starts with a root node, does have some branches as well as child nodes and leaves \autocites{SUGUMARAN2007930}. 
-The root node splits the set by a rule on the features wich provides the best classification of the instance. This goes recursive till the max depth is reached or the classification is completed. So a branch is the path from the root node to the leaf. The leaf at the end of an branch, wich represent the class labels of the feature to predict. \autocites{SUGUMARAN2007930}
-
-
-They can also handle categorical data.
-
-It's also possible to use them for multiple values to predict at the same time, wich is a typical problem in supervised machine learning called the Multi-output problem \autocites{Scikit-learn:2022}. In the case of this work it is to predict lots of parameters in context of avalanches by the use of topographical and Meteorological data.
-Because Decision Trees are likely to overfit if used on high dimensional datasets, they are no option to be used as an alternative prediction method for this work. But if used with a low tree depth, they can give a use a good understanding about the importance of some individual features for the prediction of multiple or specific parameters \autocites{Scikit-learn:2022}.
-This advantages of decision trees make them also useful for feature selection. 
+Cross-validation
 
 
 
-
-
-
-
-\subsection{Feature extraction}
 
 \subsection{Machine Learning Models}
-In order to achieve adequate results, a series of machine learning models will be trained in the context of the thesis. In the past, some models have already proven their worth in predicting natural disasters. For example, the SVM (support vector machine) and the MDA (multivariate discriminant analysis) models. They are useful for detecting subtle patterns in complex data sets and Flexible in handling data of different dimensions. SVM models are desgined to deal with high dimensional data. Thats one aspect why they have already been used to predict natural disasters, such as earthquakes, floods, typhoons, drought, landslides and avalanches \autocite{Bahram:2019} \autocite[]{Tiwari:2021} \autocite{Pozdnoukhov:2008}. MDA forms efficient linear combinations of independent variables. MDAs have not been used that often to predict natural disasters, but shows superior performance compared to SVM in the case study in the Karaj water conservation area in predicting avalanche risk levels \autocite[]{Tiwari:2021}.
+In order to achieve adequate results, a series of machine learning models will be trained in the context of the thesis. 
+In the past, some models have already proven their worth in predicting natural disasters. For example, the SVM (support vector machine) and the MDA (multivariate discriminant analysis) models. They are useful for detecting subtle patterns in complex data sets and Flexible in handling data of different dimensions. SVM models are desgined to deal with high dimensional data. Thats one aspect why they have already been used to predict natural disasters, such as earthquakes, floods, typhoons, drought, landslides and avalanches \autocite{Bahram:2019} \autocite[]{Tiwari:2021} \autocite{Pozdnoukhov:2008}. MDA forms efficient linear combinations of independent variables. MDAs have not been used that often to predict natural disasters, but shows superior performance compared to SVM in the case study in the Karaj water conservation area in predicting avalanche risk levels \autocite[]{Tiwari:2021}.
 
 \subsubsection{SVM (Support Vector Machine)}
+Support Vector Machines are supervised machine learning algorithms based on the statical learning theory. Supervised learning algorithms are given a number of input features and the parameters to be predicted with labels. Each feature can also be considered as a dimension in a hyper-plane. The SVM creates a hyper-plane to split the hyper-space into two or more parts. This depends on how many classes are to be predicted. So the SVM can be applied to cases of the multi-class problem just like decision trees. To minimise the generalisation error the SVM tries to seperate the classes with the maximum margin.\autocites{SUGUMARAN2007930} \\
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.5]{svm_seperation_classifier.gif}
+    \caption{Standard SVM Classifier. \autocites{SUGUMARAN2007930}}
+\end{figure}
+
+
+
+
+
+
+
+
 
 \subsubsection{MDA (multivariate discriminant analysis)}
 
 \subsubsection{Neuronal Network}
 
 
-\end{document}
+
+
+\subsubsection{Model evalutaion}
+Sensitivity analysis, AUC statistic \autocites{Bahram:2019}
+

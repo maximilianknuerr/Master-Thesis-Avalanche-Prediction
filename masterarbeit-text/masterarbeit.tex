@@ -5,6 +5,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -32,10 +35,12 @@
 
 \lstset{style=mystyle}
 
+\usepackage{amsmath}
 \usepackage{csquotes}
 \usepackage{abbrevs}
 \usepackage[backend=bibtex, style=ieee, citestyle=ieee]{biblatex}
 \bibliography{Bibliography}
+
 
 \usepackage[english,ngerman]{babel}
 
@@ -57,49 +62,47 @@
 
 
 
+
 \maketitle
 
 \tableofcontents
+
+\clearpage
 \newpage
-
-
 \subfile{sections/introduction.tex}
 
-
-
+\clearpage
+\newpage
 \subfile{sections/related_work.tex}
 
 
-
-
+\clearpage
+\newpage
 \subfile{sections/methods.tex}
 
 
-
-
-
-
-
-
-
+\clearpage
+\newpage
 \subfile{sections/data.tex}
 
+\clearpage
+\newpage
+\subfile{sections/feature_selection.tex}
 
 
 
 
+\clearpage
+\newpage
+\lstlistoflistings
+
+\clearpage
+\newpage
+\listoffigures
 
 
 
-
-
-
-
-
-
-
-
-
+\clearpage
 \newpage
 \addcontentsline{toc}{section}{References}
 \printbibliography
@@ -112,4 +115,3 @@
 
 
 \end{document}
-a

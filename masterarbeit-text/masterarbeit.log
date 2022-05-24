@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  4 MAY 2022 06:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  6 MAY 2022 07:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -90,6 +90,19 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -392,7 +405,7 @@ Package: babel 2021/03/24 3.56 The Babel package
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2021/03/24 3.56 Babel common definitions
 \babel@savecnt=\count401
-\U@D=\dimen151
+\U@D=\dimen153
 \l@babelnohyphens=\language88
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -411,7 +424,11 @@ Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthograp
  (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 122.
-)))
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+))
 \@input{_Configuration.aux}
 \openout2 = `_Configuration.aux'.
 
@@ -420,7 +437,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 53.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 59.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -430,20 +447,20 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
 \openout1 = `masterarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -483,17 +500,22 @@ LaTeX Font Info:    ... okay on input line 53.
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count405
-\scratchdimen=\dimen152
+\scratchdimen=\dimen154
 \scratchbox=\box50
 \nofMPsegments=\count406
 \nofMParguments=\count407
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count408
-\MPscratchDim=\dimen153
+\MPscratchDim=\dimen155
 \MPnumerator=\count409
 \makeMPintoPDFobject=\count410
 \everyMPtoPDFconversion=\toks24
-)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
@@ -536,12 +558,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'masterarbeit.bbl' not found.
 
 No file masterarbeit.bbl.
-Package biblatex Info: Reference section=0 on input line 53.
-Package biblatex Info: Reference segment=0 on input line 53.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 58.
+(Font)              <14.4> on input line 65.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 65.
 No file masterarbeit.toc.
 \tf@toc=\write4
 \openout4 = `masterarbeit.toc'.
@@ -551,113 +573,92 @@ No file masterarbeit.toc.
 
 
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Lawis:2022' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'THURING201560' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 64.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 64.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--70
-
- []
-
-[2]
-
-LaTeX Warning: Citation 'Harvey:2016' on page 3 undefined on input line 73.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 74.
-
-
-LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 79.
-
-
-LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 80.
-
-
-LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 84.
-
-
-LaTeX Warning: Citation 'CAI201870' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 3 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 3 undefined on input line 90.
-
-[3]
-
-LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 96.
-
-
-LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 97.
-
-
-LaTeX Warning: Citation 'SUGUMARAN2007930' on page 4 undefined on input line 99.
-
-
-LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 103.
-
-
-LaTeX Warning: Citation 'Scikit-learn:2022' on page 4 undefined on input line 104.
-
-
-LaTeX Warning: Citation 'Bahram:2019' on page 4 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 4 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 4 undefined on input line 116.
-
-
-LaTeX Warning: Citation 'Tiwari:2021' on page 4 undefined on input line 116.
-
-[4] [5]
-
-LaTeX Warning: Empty bibliography on input line 153.
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/introduction.tex)
+Runaway argument?
+[../masterarbeit.tex]{subfiles} \par \par \par \section {Introduction\ETC.
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex:71: File ended while scanning use of \documentclass.
+<inserted text> 
+                \par 
+l.71 \subfile{sections/introduction.tex}
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/related_work.tex)
+Runaway argument?
+[../masterarbeit.tex]{subfiles} \par \section {Related Work} In the c\ETC.
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex:75: File ended while scanning use of \documentclass.
+<inserted text> 
+                \par 
+l.75 \subfile{sections/related_work.tex}
+                                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/methods.tex)
+Runaway argument?
+ [h] \centering \includegraphics [scale=0.5]{svm_seperation_classifie\ETC.
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex:80: File ended while scanning use of \documentclass.
+<inserted text> 
+                \par 
+l.80 \subfile{sections/methods.tex}
+                                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/data.tex)
+Runaway argument?
+ {|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|\ETC.
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex:85: File ended while scanning use of \documentclass.
+<inserted text> 
+                \par 
+l.85 \subfile{sections/data.tex}
+                                
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/feature_selection.tex)
+Runaway argument?
+ [h] \centering \includegraphics [scale=0.07]{avalanchedecisionttree.\ETC.
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.tex:89: File ended while scanning use of \documentclass.
+<inserted text> 
+                \par 
+l.89 \subfile{sections/feature_selection.tex}
+                                             
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.lol)
+\tf@lol=\write5
+\openout5 = `masterarbeit.lol'.
+
+ [2
+
+
+
+
+
+
+]
+No file masterarbeit.lof.
+\tf@lof=\write6
+\openout6 = `masterarbeit.lof'.
+
+[3
+
+]
+
+LaTeX Warning: Empty bibliography on input line 105.
 
 (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.aux)
 
@@ -673,18 +674,18 @@ Package logreq Info: Writing requests to 'masterarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12851 strings out of 478994
- 227452 string characters out of 5858185
- 806147 words of memory out of 5000000
- 30192 multiletter control sequences out of 15000+600000
- 416366 words of font info for 46 fonts, out of 8000000 for 9000
+ 13071 strings out of 478994
+ 231263 string characters out of 5858185
+ 803763 words of memory out of 5000000
+ 30365 multiletter control sequences out of 15000+600000
+ 413114 words of font info for 42 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,7n,74p,2783b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,7n,74p,2767b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on /Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.pdf (5 pages, 44563 bytes).
+Output written on /Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/masterarbeit.pdf (3 pages, 23071 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
