@@ -1,34 +1,48 @@
 \documentclass[../masterarbeit.tex]{subfiles}
+\begin{document}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \section{Methodology}
 
+For machine learning analysis there are some phases to be accomplished. The methods used for processing these stages are explained in this section. The first step to be done is the Data Preprocessing, wich is described in detail in section 3.1. After that the Features Selection phase gets explained in chapter 3.2. Thirdly the Machine learning models needs to be trained. This phase is explained in more depth in chapter 3.3. The final step is to evaluate the performance of the machine learning models in their application to the data set, which is declared in section 3.4.
+
+
+\subfile{sections/data_preprocessing_methods.tex}
+
+
 
 \subfile{sections/feature_selection_methods.tex}
 
-\subsection{Validation}
-
-
-curve (ROC) analysis to scrutinize the sensitivity, specificity, and accuracy
-
-Cross-validation
 
 
 
 
-\subsection{Machine Learning Models}
-In order to achieve adequate results, a series of machine learning models will be trained in the context of the thesis. 
-In the past, some models have already proven their worth in predicting natural disasters. For example, the SVM (support vector machine) and the MDA (multivariate discriminant analysis) models. They are useful for detecting subtle patterns in complex data sets and Flexible in handling data of different dimensions. SVM models are desgined to deal with high dimensional data. Thats one aspect why they have already been used to predict natural disasters, such as earthquakes, floods, typhoons, drought, landslides and avalanches \autocite{Bahram:2019} \autocite[]{Tiwari:2021} \autocite{Pozdnoukhov:2008}. MDA forms efficient linear combinations of independent variables. MDAs have not been used that often to predict natural disasters, but shows superior performance compared to SVM in the case study in the Karaj water conservation area in predicting avalanche risk levels \autocite[]{Tiwari:2021}.
 
-\subsubsection{SVM (Support Vector Machine)}
-Support Vector Machines are supervised machine learning algorithms based on the statical learning theory. Supervised learning algorithms are given a number of input features and the parameters to be predicted with labels. Each feature can also be considered as a dimension in a hyper-plane. The SVM creates a hyper-plane to split the hyper-space into two or more parts. This depends on how many classes are to be predicted. So the SVM can be applied to cases of the multi-class problem just like decision trees. To minimise the generalisation error the SVM tries to seperate the classes with the maximum margin.\autocites{SUGUMARAN2007930} \\
+\subfile{sections/machine_learning_methods.tex}
 
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[scale=0.5]{svm_seperation_classifier.gif}
-    \caption{Standard SVM Classifier. \autocites{SUGUMARAN2007930}}
-\end{figure}
+
+
+
+
+\subfile{sections/evaluation_methods.tex}
 
 
 
@@ -38,13 +52,20 @@ Support Vector Machines are supervised machine learning algorithms based on the 
 
 
 
-\subsubsection{MDA (multivariate discriminant analysis)}
-
-\subsubsection{Neuronal Network}
 
 
 
 
-\subsubsection{Model evalutaion}
-Sensitivity analysis, AUC statistic \autocites{Bahram:2019}
 
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,13 +1,13 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[includeheadfoot,margin=2.5cm]{geometry}
 
+\newcommand*{\source}[1]{\par\raggedleft\footnotesize Source:~#1}
 \usepackage{times}
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
-
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -67,6 +67,8 @@
 
 \tableofcontents
 
+
+
 \clearpage
 \newpage
 \subfile{sections/introduction.tex}
@@ -76,6 +78,9 @@
 \subfile{sections/related_work.tex}
 
 
+
+
+
 \clearpage
 \newpage
 \subfile{sections/methods.tex}
@@ -83,14 +88,16 @@
 
 \clearpage
 \newpage
-\subfile{sections/data.tex}
+\subfile{sections/results.tex}
+
 
 \clearpage
 \newpage
-\subfile{sections/feature_selection.tex}
+\section{Discussion \& Outlook}
 
-
-
+\clearpage
+\newpage
+\section{Conclusion and Future Work}
 
 \clearpage
 \newpage
@@ -114,4 +121,4 @@
 
 
 
-\end{document}
+\end{document}0
