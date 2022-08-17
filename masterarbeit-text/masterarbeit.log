@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  1 AUG 2022 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.2)  17 AUG 2022 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,4 +603,367 @@ Package biblatex Info: ... and expl3
 (biblatex)             2021-02-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-gene
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `masterarbeit-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'masterarbeit.bbl' not found.
+
+No file masterarbeit.bbl.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+No file masterarbeit.toc.
+\tf@toc=\write4
+\openout4 = `masterarbeit.toc'.
+
+[1
+
+
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/introduction.tex
+
+LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Lawis:2022' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'THURING201560' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Lawine:2019' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'SUBASI202091' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Martin:2001' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'ibm-Nearest-Neighbors:2022' on page 2 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 2 undefined on input line 9.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+[2
+
+]) [3] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/related_work.tex
+
+LaTeX Warning: Citation 'Harvey:2016' on page 4 undefined on input line 30.
+
+
+LaTeX Warning: Citation 'dwd:2022' on page 4 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'DeepAI:2022' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Harvey:2016' on page 4 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Harvey:2016' on page 4 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'Harvey:2016' on page 4 undefined on input line 39.
+
+
+Overfull \hbox (8.9093pt too wide) in paragraph at lines 30--40
+[]\OT1/ptm/m/n/12 In the alps a dataset of avalanche events from the area around Davos, Swiz-er-land []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--40
+
+ []
+
+[4
+
+]
+
+LaTeX Warning: Citation 'Bahram:2019' on page 5 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 5 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'wortbedeutung_topografie:2022' on page 5 undefined on input line 42.
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 42--42
+[][]\OT1/ptm/m/n/10 Topography is a branch of car-tog-ra-phy and de-scribes the char-ac-ter-is-tics of the earth's sur-face
+ []
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 5 undefined on input line 42.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 5 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 5 undefined on input line 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--61
+
+ []
+
+[5]
+
+LaTeX Warning: Citation 'THURING201560' on page 6 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'wyssenavalanche:2022' on page 6 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'THURING201560' on page 6 undefined on input line 62.
+
+
+LaTeX Warning: Citation 'THURING201560' on page 6 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'THURING201560' on page 6 undefined on input line 64.
+
+
+Overfull \hbox (9.53348pt too wide) in paragraph at lines 62--65
+[]\OT1/ptm/m/n/12 Thomas Th[]uring, Mar-cel Schoch, Alec van Her-wi-j-nen and J[]urg Schweizer []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 6 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 6 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 6 undefined on input line 69.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation 'Pozdnoukhov:2008' on page 6 undefined on input line 72.
+
+
+Overfull \hbox (5.13126pt too wide) in paragraph at lines 66--73
+\OT1/ptm/m/n/12 The con-clu-sion of this study men-tioned, that the Sup-port Vec-tor Ma-chine at its op-ti-mum thresolds
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
+
+ []
+
+[6]
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 7 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 79.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 83.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 7 undefined on input line 86.
+
+
+LaTeX Warning: Citation 'Tiwari:2021' on page 7 undefined on input line 86.
+
+
+LaTeX Warning: Citation 'Bahram:2019' on page 7 undefined on input line 86.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
+
+ []
+
+[7]
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 88.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 91.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 92.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 93.
+
+
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/related_work.tex:94: Package inputenc Error: Unicode character − (U+2212)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ...on model is." \autocite[]{WEN2022103535} }
+                                                   and the ROC curve.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'WEN2022103535' on page 8 undefined on input line 96.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--97
+
+ []
+
+[8]
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 99.
+
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 100.
+
+
+LaTeX Warning: Citation 'Harvey:2016' on page 9 undefined on input line 100.
+
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 101.
+
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 102.
+
+
+LaTeX Warning: Citation 'nhess-2021-106' on page 9 undefined on input line 103.
+
+
+Overfull \hbox (2.60825pt too wide) in paragraph at lines 98--104
+[]\OT1/ptm/m/n/12 In The Pa-per "A data ef-fi-cient ma-chine learn-ing model for au-tonomous op-er-a-tional avalanche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--104
+
+ []
+
+[9]) [10] (/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/methods.tex
+
+! LaTeX Error: File `sections/sections/data_preprocessing_methods.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/methods.tex:27: Emergency stop.
+<read *> 
+         
+l.27 ...e{sections/data_preprocessing_methods.tex}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 13897 strings out of 478994
+ 241819 string characters out of 5858185
+ 829115 words of memory out of 5000000
+ 31174 multiletter control sequences out of 15000+600000
+ 423326 words of font info for 64 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 73i,9n,74p,2723b,2251s stack positions out of 5000i,500n,10000p,200000b,80000s
+/Users/max/Documents/Studium/Masterarbeit/masterarbeit-text/sections/methods.tex:27:  ==> Fatal error occurred, no output PDF file produced!

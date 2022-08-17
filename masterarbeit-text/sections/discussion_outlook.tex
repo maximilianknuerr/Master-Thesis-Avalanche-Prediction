@@ -1,0 +1,54 @@
+\documentclass[../masterarbeit.tex]{subfiles}
+\begin{document}
+
+
+
+
+
+
+\section{Discussion}
+The results of the study included inside of this work show some similarities as well as differences to the case studies shown in section 2 about the related work. 
+
+The results of the case study included in this master thesis show that the SVM model did make better predictions than the two LDA and Logistic Regression models, whose results are relatively similar to each other. compared to the study "Snow avalanche hazard prediction using machine learning methods" \textcite[]{Bahram:2019} whose aim was to compare the performance of the machine learning models SVM and MDA with respect to the prediction of avalanche probability, different results were obtained in the present study. In the comparison study, the SVM was ahead of the MDA in terms of the AUC statistic, but the MDA was ahead in terms of the overall results. In the case of the present study, the LDA, which is another form of the MDA, is behind the SVM in all evaluation metrics. The metrics of the study had higher values than those of the present study, but this may due to the fact that the authors of the study predicted the avalanche danger in three stages for different zones and created an avalanche hazard map and not exact predictions of snow avalanches for specified mountain slopes, which is a more detailed task. 
+
+The authors authors Chawla, M. and Singh, A. \textcite[]{nhess-2021-106} also created additional data columns based on the given table to allow the machine learning models to obtain more information from factors in the past. In the feature selection part of this master thesis, both additional factors were added to the dataset based on the decisions of the decision tree and then the genetic algorithm selected the most relevant factors for the individual machine learning models from the total set for training. For all three algorithms, the additional factors from the past were also used. The use of factors from the past days seems to be relevant not only in the study of Chawla, M. and Singh, A. \textcite[]{nhess-2021-106} for the prediction of snow avalanches but in general for this task to contain important information for machine learning models.
+Different to the studies mentioned in chapter 2 about the related work, the study of this master thesis attempts to predict snow avalanches for topographical defined mountain slopes. The studies from chapter 2 try to achieve similar goals like predicting the avalanche days for a winter season or predict which mountain areas are particularly prone to avalanches and which are less so. 
+
+
+
+
+
+
+
+
+
+\section{Limitations}
+The results from section 4.1 on data show that the data set which was used for this master thesis is not always and homogeneous and maintained equally well and therefore some data columns had to be removed for the use in the prediction of avalanches with machine learning models. In addition, samples from 1944 to 1989 had to be removed from the dataset for the same reason. It is possible that a larger number of avalanche samples over a longer period of time could result in higher quality predictions from the machine learning models.
+Also the three machine learning models are also a biased by the unbalanced dataset. Since the dataset includes mote non-avalanche than avalanche samples. An indicator for the bias of the models is, that the balanced accuracy score was in all cases a few percent smaller than the accuracy score. Also, the slopes have been randomly added to the days and there is not one sample per hillside and day. This means that the machine learning models can not learn from all non-avalanche scenarios in combination with all slopes. Such an approach would not have been possible because it would have increased the bias due to imbalance.
+In addition, the fact that snow avalanches can be triggered by external influences that do not depend on meteorological factors, such as animals, also limits the number of avalanches that can be triggered. Therefore, an accurate prediction, as attempted in this study, is more difficult to realize than for example the hazard level for an area.
+
+
+
+
+\section{Outlook}
+
+Since the results of this study are quite acceptable in trying to predict snow avalanches with day and location location accuracy and even excellent in some metrics, the use and further development of machine learning models in predicting snow avalanches will definitely assist in improving the safety in avalanche prone areas in the future. As the results of the models are good, but there are some mispredictions, the prediction of avalanche danger levels or a percentage of the probability of an avalanche would be desirable for future work.
+
+
+For the generalized prediction of snow avalanches for topographically defined mountain slopes based on meteorological data, there are additional limitations. In this case, the recording of the meteorological data must be standardized for the different mountain slopes. furthermore, additional information about the topography of the slopes would have to be obtained.  For example, all the slopes in this study are above the tree line and are therefore not representative of forested mountain slopes.
+
+Data from the past days that were added later were also selected in part for all three machine learning models during feature selection with the Genetic Algorithm.  The information contained in past data is therefore potentially of particular importance for the prediction of avalanches for topographically defined mountain slopes with machine learning models, since the danger of avalanches not only relates to the current conditions, but in some cases factors that lie several days in the past can also play a role. This finding could mean additional potential for future work and studies.
+
+
+\section{Conclusion}
+
+As expected, the prediction results of all three machine learning algorithms are not perfect. This is not only due to the unbalanced dataset, but also to the fact that avalanches are not exclusively triggered by the weather. There are various external influences that can also lead to a triggering. Thus, a perfect prediction of the algorithms is not to be expected. However, the results delivered by the machine learning models were quite useful and can at least be used for an estimation. 
+In conclusion, snow avalanches in the specific context of this case study of Kaprun/Mooserboden can be predicted with a good quality, especially with the use of the SVM model. The average recall metrics of the three machine learning models show that there is an increased error rate in the form of unpredicted avalanches, which means that an accurate prediction by the models cannot be relied upon.
+It can also be concluded that there is definitely enough information in the meteorological data to predict snow avalanches on topographically defined mountain slopes.
+
+
+
+
+
+
+\end{document}

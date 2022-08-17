@@ -4,7 +4,7 @@
 \subsection{Data Preprocessing}
 
 
-Data sets consisting of the real data can be partially sparse, corrupted, incomplete or noisy. The probability for this increases additionally if the data originate from various sources. Because of this data preprocessing is a common task when it comes to training a machine learning model. Data preprocessing is a task to clean up the dataset for the machine learning model to make it easier to parse the data to the model. Machine learning algorithms often fail to identify patterns in the data  and do not give quality results if the dataset is inconsistent or noisy. So the quality of predictions, wich are made by machine learning models depend on the quality of the data. \autocite[]{Pragati_Preprocessing:2022} \autocite[]{kotsiantis2006data} \\
+Data sets consisting of the real data can be partially sparse, corrupted, incomplete or noisy. The probability for this increases additionally if the data originate from various sources. Because of this data preprocessing is a common task when it comes to training a machine learning model. Data preprocessing is a task to clean up the dataset for the machine learning model to make it easier to parse the data to the model. Machine learning algorithms often fail to identify patterns in the data  and do not give quality results if the dataset is inconsistent or noisy. So the quality of predictions, which are made by machine learning models depend on the quality of the data. \autocite[]{Pragati_Preprocessing:2022} \autocite[]{kotsiantis2006data} \\
 The three main problems of datasets for machine learning are the following \autocite[]{Pragati_Preprocessing:2022}:
 \begin{itemize}
 	\item Missing Data
@@ -16,13 +16,13 @@ At first to keep the values in the dataset, for missing data the two options are
 To handle the problem of noisy data and reduce the number of possible values in total, the features can be discretized. This can for example be done by calculating the maximum and the minimum for the feature and dividing it into \(k\) equal sized segments. \autocite[]{kotsiantis2006data} \\
 According to Pragati Baheti, the only option for inconsistent data is to remove it from the data set \textcite[]{Pragati_Preprocessing:2022}. This is also the method done in the context of this master thesis. \\
 After the data is free of noisy, missing and inconsistent data, the next step of data preprocessing is the data normalization. It is a scaling down process to lower the standard deviation of the features values. \autocite[]{kotsiantis2006data} \\
-The scaler algorithmus StandardScaler(), wich is used in this purpose, is included in the library sklearn.preprocssing. The algorithm standardizes the values by subtracting the mean and smoothing the values to unit size. \autocite[]{Sklearn_StandardScaler:2022} This is calculated for a sample \(x\) as follows:
+The scaler algorithmus StandardScaler(), which is used in this purpose, is included in the library sklearn.preprocssing. The algorithm standardizes the values by subtracting the mean and smoothing the values to unit size. \autocite[]{Sklearn_StandardScaler:2022} This is calculated for a sample \(x\) as follows:
 \\~\\
 \(z = \frac{(x - u)}{s} \) \hfill \textcite[]{Sklearn_StandardScaler:2022} \\~\\
 Where \(u\) is the mean value and \(s\) represents the standard deviation of the samples. The centering and scaling processes are happening independently for each features. The mean and standard deviation statistics are calculated on the samples  for this process. \autocite[]{Sklearn_StandardScaler:2022}
 For most machine learning estimators it is required to use such a standartisation algorithm, because they do not behave well if the features are not standard normally distributed. \autocite[]{Sklearn_StandardScaler:2022}
 The sklearn documentation of the StandardScaler algorithm describes as an example the Support Vector Machine kernel "RBF", which assumes that the values of all features contained in the dataset are centered around zero. If this is not true for a feature and its values are larger, it dominates the dataset by its overweighting and the machine learning model cannot learn correctly in this case. \autocite[]{Sklearn_StandardScaler:2022}
-As mentioned in the article "Data preprocessing for supervised leaning" \textcite[]{kotsiantis2006data}, The next step is the features selection one, wich is described in detail in the next section. 
+As mentioned in the article "Data preprocessing for supervised leaning" \textcite[]{kotsiantis2006data}, The next step is the features selection one, which is described in detail in the next section. 
 In the case of this master thesis, the normalization part of data preprocessing is done after the feature selection. This is done because the first part in the features selection process of this work contains the creation and inclusion of additional data columns.
 
 
